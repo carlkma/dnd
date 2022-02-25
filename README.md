@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Block-based Programming Puzzle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+This is a drag-and-drop programming interface based on [React](https://reactjs.org/) and [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd). 
 
-## Available Scripts
+Features:
+* Each block, or puzzle piece, can be connected to other blocks, forming a correct syntax for the Python programming language 
+* Certain blocks allow direct user inputs
+* A JSON file detailing the order, line number, and indentation of blocks can be generated on click
+* Indentations, as per Python PEP 8 standards, are achieved through a special indentation block: visible to users, but omitted in data structures and JSON outputs
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+*All systems*
+1. Download and install all dependencies, including but not limited to `Node.JS`, `React`, and `react-beautiful-dnd`
+1. `cd ` to `dnd/`
+1. Initiate the development server by `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**NOTE:** This distribution does NOT contain third-party modules, packages, and dependencies due to file size and copyright concerns. Hence, the scripts in `dnd/src/` does **NOT** work without manual installation of external libraries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+The User Interface:
+![alt text](https://github.com/macarl08/dnd/pics/ui.png "User Interface")
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users are able to drag and drop blocks left and right horizontally
+![alt text](https://github.com/macarl08/dnd/pics/dnd_horizontal.png "Horizontal Drag and Drop of Blocks")
 
-### `npm run build`
+Users are able to drag and drop blocks from one line to another vertically
+![alt text](https://github.com/macarl08/dnd/pics/dnd_vertical.png "Vertical Drag and Drop of Blocks")
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users are able to directly input code
+![alt text](https://github.com/macarl08/dnd/pics/user_input.png "Input Box for Direct User Input")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+By clicking the Export JSON button, a JSON file is automatically downloaded
+![alt text](https://github.com/macarl08/dnd/pics/json_output.png "Exported JSON File")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The exported JSON file is consistent with what is expected
+ ![alt text](https://github.com/macarl08/dnd/pics/json_comparision.png "Comparing the Exported and Expected JSON File")
+ 
 
-### `npm run eject`
+## Brief History
+This project was initiated in February 2022 as part of the author’s interest in designing block-based programming environments for novice programmers.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is in its early stages of development, and is expected to undergo significant changes and enhancements.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MIT License
+Copyright (c) 2022 [Carl Ma](https://github.com/macarl08)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
 
-## Learn More
+> The above copyright notice and this permission notice shall be included in all
+> copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> SOFTWARE.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**NOTE:** This software depends on other packages that may be licensed under different open source licenses.
