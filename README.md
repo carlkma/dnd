@@ -29,9 +29,6 @@ Users are able to drag and drop blocks left and right horizontally
 Users are able to drag and drop blocks from one line to another vertically
 ![ScreenShot](pics/dnd_vertical.png "Vertical Drag and Drop of Blocks")
 
-Users are able to directly input code
-![ScreenShot](pics/user_input.png "Input Box for Direct User Input")
-
 By clicking the Export JSON button, a JSON file is automatically downloaded
 ![ScreenShot](pics/json_output.png "Exported JSON File")
 
