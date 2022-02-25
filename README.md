@@ -21,22 +21,22 @@ Features:
 ## Screenshots
 
 The User Interface:
-![alt text](https://github.com/macarl08/dnd/pics/ui.png "User Interface")
+![ScreenShot](pics/ui.png "User Interface")
 
 Users are able to drag and drop blocks left and right horizontally
-![alt text](https://github.com/macarl08/dnd/pics/dnd_horizontal.png "Horizontal Drag and Drop of Blocks")
+![ScreenShot](pics/dnd_horizontal.png "Horizontal Drag and Drop of Blocks")
 
 Users are able to drag and drop blocks from one line to another vertically
-![alt text](https://github.com/macarl08/dnd/pics/dnd_vertical.png "Vertical Drag and Drop of Blocks")
+![ScreenShot](pics/dnd_vertical.png "Vertical Drag and Drop of Blocks")
 
 Users are able to directly input code
-![alt text](https://github.com/macarl08/dnd/pics/user_input.png "Input Box for Direct User Input")
+![ScreenShot](pics/user_input.png "Input Box for Direct User Input")
 
 By clicking the Export JSON button, a JSON file is automatically downloaded
-![alt text](https://github.com/macarl08/dnd/pics/json_output.png "Exported JSON File")
+![ScreenShot](pics/json_output.png "Exported JSON File")
 
 The exported JSON file is consistent with what is expected
- ![alt text](https://github.com/macarl08/dnd/pics/json_comparision.png "Comparing the Exported and Expected JSON File")
+![ScreenShot](pics/json_comparision.png "Comparing the Exported and Expected JSON File")
  
 
 ## Brief History
